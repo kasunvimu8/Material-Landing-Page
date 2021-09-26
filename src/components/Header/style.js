@@ -36,7 +36,15 @@ const useStyles = makeStyles ((theme) => ({
     maintext : {
         color : 'white',
         fontSize : '4.5rem',
-        fontWeight : 'bold'
+        fontWeight : 'bold',
+        [theme.breakpoints.down('md')]: {
+            fontSize : '3.5rem !important',
+        }
+    },
+
+    alignCenter: {
+        alignItems: 'center',
+        justifyContent : 'center',
     },
 
     textContainer : {
@@ -47,7 +55,16 @@ const useStyles = makeStyles ((theme) => ({
     down: {
         color : '#102a58',
         fontSize : '4.5rem !important',
-        fontWeight : 'bold'
+        fontWeight : 'bold',
+        [theme.breakpoints.down('md')]: {
+            fontSize : '3rem !important',
+        }
+    },
+
+    icon: {
+        display : 'flex',
+        alignItems: 'center',
+        justifyContent : 'center'
     }
 }));
 
