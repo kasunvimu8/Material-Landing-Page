@@ -6,7 +6,7 @@ import {useWindowPosition} from '../../hooks/useWindowPosition';
 const Places = () => {
   const placesToVisit = [
     {
-      title: "Sigiriya",
+      title: "Negambo",
       description: "Sigiriya is famous for its palace ruins on top of a massive 200 meter high rock surrounded by the remains of an extensive network of gardens, reservoirs and other structures. The rock itself is a lava plug left over from an ancient long extinct volcano.",
       imageUrl: process.env.PUBLIC_URL + "img/image2.png",
       time: 1500,
